@@ -1,0 +1,465 @@
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+        font-family: 'Red Hat Display', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo img {
+        width: 20%;
+        padding-left: 7px;
+    }   
+    
+    .nav-links {
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 8vh;
+        background: #020241;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header__info--left {
+        visibility: hidden;
+    }
+
+    .header__info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin-left: -100px;
+        font-size: 9px;
+    }
+
+    .header__info--right {
+        font-size: 9px;
+        text-align: left;
+    }
+
+    .nav__media--right {
+        visibility: hidden;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+    }
+    
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .toggle .line2 {
+        opacity: 0;
+    }
+    
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    .banner_top h2 {
+        font-size: 60px;
+        color: #fff;
+        text-align: center;
+        text-shadow: 1px 1px 1px 1px #ff5e14;
+    }
+
+    .our__container {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+
+    .content h2 {
+        letter-spacing: 2;
+        padding: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .content p, i {
+        font-weight: lighter;
+        font-size: 25px;
+    }
+
+    .contentt {
+        height: 100%;
+        line-height: 17px;
+    }
+
+    .container {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       height: 50%;
+       padding: 50px;
+    }
+
+    .val__3 p{
+        font-size: 20px;
+        line-height: 20;
+    }
+
+    .core_head {
+        font-size: 12px;
+    }
+
+    .core_container {
+        padding: 20px;
+    }
+
+    .core_values {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+
+    .core_card {
+        width: 100%;
+    }
+
+    .why_head {
+        font-size: 15px;
+        font-size: bold;
+    }
+
+    .why_us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service_container {
+        padding: 20px;
+    }
+
+    .service_header {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .folio_head {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .folio_container {
+        padding: 40px;
+    }
+
+    .folio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*about responsiveness*/
+
+    .about_page_banner {
+        width: 100%;
+    }
+
+    .about_banner_top h2 {
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .abt_container {
+        padding: 50px;
+    }
+
+    .sub_title {
+        padding: 6px 6px;
+        font-weight: bold;
+        font-size: 15px;
+        color: inherit;
+    }
+
+    .sec_title {
+        padding: 6px 6px;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 4;
+    }
+
+    .about_desc p {
+        font-size: 15px;
+        line-height: 2.5;
+    }
+
+    .serv_banner_top h2{
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .serv {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .serv_spec_details {
+       padding-top: 22px;
+    }
+
+    .serv_card img {
+        width: 100%;
+    }
+
+    .contact_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .arc_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .const_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .wood_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .wall_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .proj_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .mech_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .elec_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .engdesign_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .contact_banner_top h2 {
+        width: 100%;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .arc_container {
+        padding: 60px;
+    }
+
+    .arc_head {
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .arc_details p {
+        padding: 30px;
+        line-height: 2rem;
+        height: 10%;
+    }
+
+    .arc_details li {
+        line-height: 2.5rem;
+    }
+
+
+    .const_container {
+        padding: 70px;
+    }
+    .const_head {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .const_details p {
+        letter-spacing: 3;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .const_details li {
+        line-height: 3rem;
+    }
+
+    .eng_container {
+        padding: 60px;
+    }
+
+    .eng_head {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .eng_details {
+        padding: 24px;
+        letter-spacing: 9;
+    }
+
+    .eng_details li {
+        line-height: 3em;
+        width: 100%;
+    }
+
+    .elec_container {
+        padding: 60px;
+    }
+
+    .elec_head {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .elec_details p {
+        padding-top: 22px;
+    }
+
+    .elec_details li {
+        line-height: 4;
+    }
+
+    .mech_container {
+        padding: 60px;
+    }
+
+    .mech_head {
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .mech_details p {
+        padding-top: 22px;
+    }
+
+    .mech_details li {
+        line-height: 4;
+    }
+
+    .proj_container {
+        padding: 22px;
+    }
+
+    .proj_head {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .proj_details p {
+        padding-top: 22px;
+    }
+
+    .proj_details li {
+        line-height: 4;
+    }
+    
+    .wall_container {
+        padding: 60px;
+    }
+
+    .wall_head {
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+    }
+
+    .wall_details p {
+        padding-top: 22px;
+    }
+
+    .wall_details li{
+        line-height: 4;
+    }
+
+    .wood_container {
+        padding: 60px;
+    }
+
+    .wood_details p {
+        padding-top: 22px;
+    }
+
+    .form_container {
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .form > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+    }
+
+    div > input, textarea {
+        width: 50vw;
+        height: 50%;
+    }
+
+    div > button {
+        width: 50vw;
+    }
+}
